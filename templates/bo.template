@@ -1,0 +1,6 @@
+record(bo,"$(PV_NAME)") {
+  field(PINI, "YES")
+  field(DTYP, "asynInt32")
+  field(OUT,   "@asyn($(ASYN_PORT),0,1)ADSPORT=$(AMS_PORT)/$(ADS_SYMBOL)=")
+  field(SCAN, "Passive")
+}

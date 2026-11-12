@@ -1,0 +1,15 @@
+file templates/bi.template {
+pattern {PV_NAME, ADS_SYMBOL}
+{"$(P)CH01_DI", "$(FB).DigitalInput_01"}
+{"$(P)CH02_DI", "$(FB).DigitalInput_02"}
+{"$(P)CH03_DI", "$(FB).DigitalInput_03"}
+{"$(P)CH04_DI", "$(FB).DigitalInput_04"}
+}
+
+file templates/bo.template {
+pattern {PV_NAME, ADS_SYMBOL}
+{"$(P)CH05_DO", "$(FB).DigitalOutput_01"}
+{"$(P)CH06_DO", "$(FB).DigitalOutput_02"}
+{"$(P)CH07_DO", "$(FB).DigitalOutput_03"}
+{"$(P)CH08_DO", "$(FB).DigitalOutput_04"}
+}

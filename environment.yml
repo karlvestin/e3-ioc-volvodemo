@@ -1,0 +1,6 @@
+dependencies:
+- epics-base
+- require
+- essioc
+- twincat-ads
+

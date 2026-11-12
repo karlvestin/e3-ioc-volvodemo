@@ -1,0 +1,7 @@
+record(bi, "$(PV_NAME)") {
+    field(PINI, "YES")
+    field(TSE,  "-2")
+    field(DTYP, "asynInt32")
+    field(INP,  "@asyn($(ASYN_PORT),0,1)ADSSERVER_PORT=$(AMS_PORT)/$(ADS_SYMBOL)?")
+    field(SCAN, "I/O Intr")
+}
